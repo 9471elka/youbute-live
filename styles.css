@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins';
+  color: #fff;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding-top: 300px;
+}
+.video img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.video{
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+.tittle{
+  margin-top: 5px;
+  margin-bottom: -5px;
+}
+.tittle p{
+  font-weight: 700;
+  font-size: 17px;
+  padding: 2px 10px 2px 10px;
+}
+.status{
+  margin-bottom: 2px;
+}
+.status p,
+.profile .status{
+  font-size: 13px;
+  padding: 10px;
+  color: #ad9f9f;
+}
+.status span{
+  font-weight: 600;
+}
+.profile{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+.profile .image{
+  width: 52px;
+}
+.profile .one{
+  display: flex;
+  align-items: center;
+}
+.profile .prof,
+.info .image .prof{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.profile .name{
+  font-weight: 700;
+  font-size: 18px;
+}
+.profile .subscribe button{
+  color: black;
+  padding: 5px 10px;
+  background-color: rgb(242, 247, 246);
+  border: none;
+  border-radius: 24px;
+  font-size: 15px;
+  transition: 1s ease;
+}
+.profile .subscribe button:hover{
+  box-shadow: 0 0 30px rgb(242, 247, 246);
+}
+.line{
+  width: 80%;
+  color: antiquewhite;
+  font-weight: bold;
+}
+.progress{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.progress .butt button{
+  background-color: rgb(49, 42, 42);
+  border: none;
+  padding: 4px 14px;
+  border-radius: 15px;
+  color: white;
+}
+.comments{
+  background-color: rgb(49, 42, 42);
+  margin: 0 10px;
+  padding: 5px 10px 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.comments .com{
+  margin-bottom: 10px;
+}
+.comments .com p{
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+}
+.comments .com span{
+  font-size: 13px;
+  color: #ad9f9f;
+}
+.comments .ments .image{
+  margin-right: 8px;
+}
+.comments .ments .image .cprof{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.comments .ments{
+  display: flex;
+  align-items: center;
+}
+.ovideo{
+  margin-top: 1px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ovideo .zvideo .image{
+  width: 100%;
+}
+.info{
+  display: flex;
+  align-items: start;
+}
+.info .status{
+  margin-top: -10px;
+}
+.info .tittle{
+  margin-bottom: 5px;
+}
+.butto{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.butto .butt{
+  margin-bottom: 5px;
+}
+.butto .butt button{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 25px;
+  color: rgb(88, 188, 247);
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 5px;
+  
+}
+.butto .ons button{
+  width: 100%;
+  background-color:  rgb(95, 181, 199) ;
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 25px;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 5px;
+  
+}
+.sho{
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.music{
+  display: flex;
+  align-items: center;
+}
+.music .tittle p{
+  font-size: 25px;
+}
+.musics{
+  width: 100%;
+  height: 300px;
+  margin: 10px;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  margin-bottom: 20px;
+  
+}
+.musics .vdeo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+.musics .vdeo{
+  height: 100%;
+  position:relative;
+  
+}
+.musics .tittle p{
+  font-size: 15px;
+  font-weight: 400;
+}
+.musics .tittle .status{
+  font-size: 12px;
+  color: rgb(240, 232, 232);
+}
+.musics .tittle{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+}
